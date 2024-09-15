@@ -16,6 +16,7 @@ body {
 #logo {
     font-family: sans-serif, cursive;
     font-weight: bold;
+    color: palevioletred;
 
 }
 
@@ -24,8 +25,8 @@ ul {
 }
 
 body > header {
-    background-color: orange;
-    color: ivory;
+    background-color: whitesmoke;
+    color: beige;
     display: flex;
     height: 8vh;
     align-items: center;
@@ -79,7 +80,7 @@ h2 {
 }
 
 body > footer {
-    background-color: orange;
+    background-color: white;
     display: flex;
 }
 
