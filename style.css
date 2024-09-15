@@ -31,38 +31,40 @@ body > header {
 
 }
 
-.image-row {
+.image-rowi {
     display: flex; /* Create a horizontal row of images */
     justify-content: space-between; /* Space out images evenly */
-    margin-bottom: 20px; /* Add space between rows */
+    margin-bottom: 10px; /* Add space between rows */
     width: 30%; /* Set each image width to 30% of the row */
-    height: auto; /* Maintain aspect ratio */
+    height: 20vh; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Optional: Add a border */
+}
+.image-rowim {
+    display: flex; /* Create a horizontal row of images */
+    justify-content: space-between; /* Space out images evenly */
+    margin-bottom: 10px; /* Add space between rows */
+    width: 30%; /* Set each image width to 30% of the row */
+    height: 20vh; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Optional: Add a border */
+}
+.image-rowima {
+    display: flex; /* Create a horizontal row of images */
+    justify-content: space-between; /* Space out images evenly */
+    margin-bottom: 10px; /* Add space between rows */
+    width:30%; /* Set each image width to 30% of the row */
+    height: 20vh; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Optional: Add a border */
+}
+.image-rowimag {
+    display: flex; /* Create a horizontal row of images */
+    justify-content: space-between; /* Space out images evenly */
+    margin-bottom: 10px; /* Add space between rows */
+    width: 30%; /* Set each image width to 30% of the row */
+    height: 20vh; /* Maintain aspect ratio */
     border: 2px solid #ccc; /* Optional: Add a border */
 }
 
-.image-row img {
-    display: flex; /* Create a horizontal row of images */
-    justify-content: space-between; /* Space out images evenly */
-    margin-bottom: 20px; /* Add space between rows */
-    width: 30%; /* Set each image width to 30% of the row */
-    height: auto; /* Maintain aspect ratio */
-    border: 2px solid #ccc; /* Optional: Add a border */
-}
 
-.image-row {
-    display: flex; /* Create a horizontal row of images */
-    justify-content: space-between; /* Space out images evenly */
-    margin-bottom: 20px; /* Add space between rows */
-}
-
-.image-row img {
-    display: flex; /* Create a horizontal row of images */
-    justify-content: space-between; /* Space out images evenly */
-    margin-bottom: 20px; /* Add space between rows */
-    width: 30%; /* Set each image width to 30% of the row */
-    height: auto; /* Maintain aspect ratio */
-    border: 2px solid #ccc; /* Optional: Add a border */
-}
 
 body > header > nav > ul {
     list-style: none;
