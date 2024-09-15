@@ -35,9 +35,15 @@ body > header {
     display: flex; /* Create a horizontal row of images */
     justify-content: space-between; /* Space out images evenly */
     margin-bottom: 20px; /* Add space between rows */
+    width: 30%; /* Set each image width to 30% of the row */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Optional: Add a border */
 }
 
 .image-row img {
+    display: flex; /* Create a horizontal row of images */
+    justify-content: space-between; /* Space out images evenly */
+    margin-bottom: 20px; /* Add space between rows */
     width: 30%; /* Set each image width to 30% of the row */
     height: auto; /* Maintain aspect ratio */
     border: 2px solid #ccc; /* Optional: Add a border */
@@ -50,6 +56,9 @@ body > header {
 }
 
 .image-row img {
+    display: flex; /* Create a horizontal row of images */
+    justify-content: space-between; /* Space out images evenly */
+    margin-bottom: 20px; /* Add space between rows */
     width: 30%; /* Set each image width to 30% of the row */
     height: auto; /* Maintain aspect ratio */
     border: 2px solid #ccc; /* Optional: Add a border */
@@ -122,4 +131,5 @@ img {
     "footer footer";
     grid-template-columns: 3fr 7fr;
 }
+
 
