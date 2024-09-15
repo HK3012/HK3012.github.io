@@ -31,6 +31,16 @@ body > header {
 
 }
 
+.image-row {
+    display: flex; /* Create a horizontal row of images */
+    justify-content: space-between; /* Space out images evenly */
+    margin-bottom: 20px; /* Add space between rows */
+}
+
+.image-row img {
+    width: 30%; /* Set each image width to 30% of the row */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Optional: Add a border */
 
 body > header > nav > ul {
     list-style: none;
