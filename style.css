@@ -35,23 +35,26 @@ body > header {
     display: flex; /* Create a horizontal row of images */
     justify-content: space-between; /* Space out images evenly */
     margin-bottom: 10px; /* Add space between rows */
-    width: 30%; /* Set each image width to 30% of the row */
+    width: 30vw; /* Set each image width to 30% of the row */
     height: 20vh; /* Maintain aspect ratio */
     border: 2px solid #ccc; /* Optional: Add a border */
+    
 }
 .image-rowim {
     display: flex; /* Create a horizontal row of images */
     justify-content: space-between; /* Space out images evenly */
     margin-bottom: 10px; /* Add space between rows */
-    width: 30%; /* Set each image width to 30% of the row */
+    width: 30vw; /* Set each image width to 30% of the row */
     height: 20vh; /* Maintain aspect ratio */
     border: 2px solid #ccc; /* Optional: Add a border */
+    
+   
 }
 .image-rowima {
     display: flex; /* Create a horizontal row of images */
     justify-content: space-between; /* Space out images evenly */
     margin-bottom: 10px; /* Add space between rows */
-    width:30%; /* Set each image width to 30% of the row */
+    width:30vw; /* Set each image width to 30% of the row */
     height: 20vh; /* Maintain aspect ratio */
     border: 2px solid #ccc; /* Optional: Add a border */
 }
@@ -103,9 +106,6 @@ body > footer {
     display: flex;
 }
 
-img {
-    border-radius: 50%;
-}
 
 #footer-ul {
     display: flex;
