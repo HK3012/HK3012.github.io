@@ -81,6 +81,7 @@ h2 {
 
 body > footer {
     background-color: rgb(68, 8, 8);
+    color: white;
     display: flex;
 }
 
