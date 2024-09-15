@@ -8,7 +8,7 @@ body {
 
 #logo {
     margin: 0px;
-    padding: 8px;
+    padding: 4px;
     width: 16%;
 }
 
@@ -17,6 +17,9 @@ body {
     font-style: italic;
     font-weight: bold;
     color: rgb(254, 199, 218);
+    outline: auto;
+    outline-width: 2px;
+    outline-color: black;
 
 }
 
@@ -100,4 +103,14 @@ img {
 #footer-ul > div > li > a{
     color: ivory;
     text-decoration: none;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "menu main"
+    "footer footer"
+    ;
+    grid-template-columns: 1fr 7fr;
 }
