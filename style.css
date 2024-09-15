@@ -32,7 +32,6 @@ body > header {
 }
 
 
-
 body > header > nav > ul {
     list-style: none;
     text-decoration: none;
@@ -84,6 +83,7 @@ img {
 }
 
 #footer-ul > div > li > a{
+    background-color: rgb(68, 8, 8);
     color: white;
     text-decoration: none;
 }
