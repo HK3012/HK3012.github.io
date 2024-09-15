@@ -124,10 +124,7 @@ img {
     display: grid;
     grid-template-areas: 
     "header header"
-    "menu main main main"
-    "menu main main main"
-    "menu main main main"
-    "menu main main main"
+    "menu main"
     "footer footer";
     grid-template-columns: 3fr 7fr;
 }
