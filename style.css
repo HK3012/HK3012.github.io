@@ -28,11 +28,12 @@ body > header {
     color: white;
     display: flex;
     height: 8vh;
-    padding: 40px 0px 0px 0px;
+
 }
 
 #nav-ul{
     display: flex;
+    padding: 40px 0px 0px 0px;
 }
 
 #nav-ul > li{
