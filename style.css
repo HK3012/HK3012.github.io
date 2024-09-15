@@ -13,7 +13,11 @@ body {
     width: 16%;
 }
 
+#logo {
+    font-family: sans-serif, cursive;
+    font-weight: bold;
 
+}
 
 ul {
     margin: 0px;
