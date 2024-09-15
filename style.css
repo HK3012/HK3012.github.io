@@ -31,29 +31,14 @@ body > header {
 
 }
 
-#nav-ul{
-    display: flex;
-    padding: 0px 0px 0px 40px;
-}
 
-#nav-ul > li{
-    padding: 8px;
-    margin: 16px;
-    
-}
 
 body > header > nav > ul {
     list-style: none;
     text-decoration: none;
 }
 
-.navbutton {
-    color: black;
-    text-decoration: none;
-    padding: 12px;
-    border: 2px solid black;
-    border-radius: 8%;
-}
+
 
 body > main article {
     width: 80%;
