@@ -24,7 +24,7 @@ ul {
 }
 
 body > header {
-    background-color: whitesmoke;
+    background-color:  rgb(68, 8, 8);
     color: white;
     display: flex;
     height: 8vh;
