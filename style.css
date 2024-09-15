@@ -100,9 +100,9 @@ img {
     grid-template-columns: 3fr 7fr;
 }
 
-#season-list > li > a {
+#season-list {
     text-decoration: none;
     padding: 12px;
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 8%;
 }
