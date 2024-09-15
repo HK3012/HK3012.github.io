@@ -16,11 +16,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: bold;
-    color: rgb(254, 199, 218);
-    outline: text;
-    outline-width: 2px;
-    outline-color: black;
-
+    color: rgb(47, 6, 6);
 }
 
 ul {
@@ -43,6 +39,7 @@ body > header {
 #nav-ul > li{
     padding: 8px;
     margin: 16px;
+    side
 }
 
 body > header > nav > ul {
@@ -101,7 +98,7 @@ img {
 }
 
 #footer-ul > div > li > a{
-    color: ivory;
+    color: rgb(47, 6, 6);
     text-decoration: none;
 }
 
@@ -110,7 +107,6 @@ img {
     grid-template-areas: 
     "header header"
     "menu main"
-    "footer footer"
-    ;
+    "footer footer";
     grid-template-columns: 3fr 7fr;
 }
