@@ -16,7 +16,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: bold;
-    color: rgb(47, 6, 6);
+    color: rgb(68, 8, 8);
 }
 
 ul {
@@ -80,7 +80,7 @@ h2 {
 }
 
 body > footer {
-    background-color: white;
+    background-color: rgb(68, 8, 8);
     display: flex;
 }
 
@@ -98,7 +98,7 @@ img {
 }
 
 #footer-ul > div > li > a{
-    color: rgb(47, 6, 6);
+    color: white;
     text-decoration: none;
 }
 
