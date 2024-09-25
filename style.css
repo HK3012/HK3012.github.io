@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(94, 94, 94);
+    background-color: rgb(66, 66, 66);
     font-family:'Times New Roman', Times, serif ;
     margin: 0px;
     font-size: 1.05vw;
@@ -148,7 +148,7 @@ body > footer {
 }
 
 .image-gallery img:hover {
-    transform: scale(1.08);
+    transform: scale(1.85);
 }
 
 
