@@ -1,8 +1,9 @@
 body {
-    background-color: rgb(237, 229, 219);
+    background-color: rgb(94, 94, 94);
     font-family:'Times New Roman', Times, serif ;
     margin: 0px;
-    font-size: 1vw;
+    font-size: 1.05vw;
+    color: white;
 }
 
 
@@ -16,7 +17,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: bold;
-    color: rgb(68, 8, 8);
+    color: rgb(255, 255, 255);
 }
 
 ul {
@@ -24,7 +25,7 @@ ul {
 }
 
 body > header {
-    background-color: rgb(68, 8, 8);
+    background-color: rgb(0, 0, 0);
     color: white;
     display: flex;
     height: 8vh;
@@ -101,7 +102,7 @@ h2 {
 }
 
 body > footer {
-    background-color:rgb(68, 8, 8);
+    background-color:rgb(0, 0, 0);
     color: white;
     display: flex;
 }
@@ -117,7 +118,7 @@ body > footer {
 }
 
 #footer-ul > div > li > a{
-    background-color: rgb(68, 8, 8);
+    background-color: rgb(0, 0, 0);
     color: white;
     text-decoration: none;
 }
@@ -139,7 +140,7 @@ body > footer {
 }
 
 .image-gallery img {
-    width: 300px;
+    width: 250px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -147,7 +148,7 @@ body > footer {
 }
 
 .image-gallery img:hover {
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 
 
